@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>TP 9</title>
+    <meta name="author" content="Dino Damianoff" />
+
+    <script src="src/scripts/app.js"></script>
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+</head>
+<body>
+
+    <div>
+        <header>
+            <h1>Agenda telefónica</h1>
+        </header>
+
+        <main>
+            <section>
+
+                <h2>Nuevo contacto: </h2>
+                <label> <span>Número:</span>
+                    <input id="tlbNum" type="number" placeholder="381 1111 22 33" />
+                </label>
+
+                <label> <span>Nombre:</span>
+                    <input id="tlbName" type="text" placeholder="Pedro Rodriguez" />
+                </label>
+
+                <input type="button" value="añadir" id="btnAdd"/>
+            </section>
+
+            <section>
+                <h2>Listado de contactos:</h2>
+                <input type="button" id="btnClear" value="limpiar"/>
+                <ul id="valueList">
+
+                </ul>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
